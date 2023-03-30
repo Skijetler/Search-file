@@ -1,5 +1,8 @@
 aiohttp~=3.8.4
 pydantic~=1.10.7
-argparse_dataclass~=1.0.0
 aiohttp_pydantic~=1.12.2
+argparse_dataclass~=1.0.0
 elasticsearch~=7.13.4
+setproctitle~=1.3.2
+pandas~=1.5.3
+alembic~=1.10.2
