@@ -13,9 +13,17 @@ class AppConfig:
                                metadata=dict(args=["--port"],
                                help="TCP port API server would listen on"))
 
-    es_url:  str = field(default="http://localhost:9200", 
-                         metadata=dict(args=["--es-url"],
-                         help="URL to use to connect to the Elasticsearch"))
+    es_url: str = field(default="http://localhost:9200", 
+                        metadata=dict(args=["--es-url"],
+                        help="URL to use to connect to the Elasticsearch"))
+
+    es_user: str = field(default="searcher", 
+                         metadata=dict(args=["--es-user"],
+                         help="Elasticsearch username"))
+
+    es_pass: str = field(default="7Dx09Ns12Po6", 
+                         metadata=dict(args=["--es-pass"],
+                         help="Elasticsearch password"))
 
     es_index: str = field(default="text-search-index",
                           metadata=dict(args=["--es-index"],

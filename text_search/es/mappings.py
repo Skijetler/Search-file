@@ -1,7 +1,7 @@
 documents_mapping = {
     "mappings": {
         "properties": {
-            "id":           {"type": "text"},
+            "id":           {"type": "integer"},
             "text":         {"type": "text"},
         }
     }

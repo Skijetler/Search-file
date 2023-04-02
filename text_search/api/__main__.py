@@ -14,8 +14,7 @@ from text_search.api.app import create_app
 ENV_VAR_PREFIX = 'TEXT_SEARCH_'
 
 # парсер параметров программы
-parser = ArgumentParser(AppConfig,
-                        auto_env_var_prefix=ENV_VAR_PREFIX)
+parser = ArgumentParser(AppConfig)
 
 
 def main() -> None:
